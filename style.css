@@ -6,18 +6,31 @@
     box-sizing: border-box;
     font-family: "inter", sans-serif    
 }
+:root{
+
+    --black: #141414;
+    --dark-grey: #1f1f1f;
+    --white: #FFF;
+
+}
+
 body {
-    background-color: #141414;
+    background-color: var(--black);
     display: flex;
     justify-content: center;
     align-items: center;
 
 }
 div {
-    background-color: #1f1f1f;
-color: white;
+    background-color: var(--dark-grey);
+color: var(var(--white));
 width: 384px;
+text-align: center;
+
+
 }
-ul, li{
+
+
+ul, li {
     list-style: none;
-}
+    }

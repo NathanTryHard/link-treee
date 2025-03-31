@@ -20,17 +20,32 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    
 
 }
 div {
     background-color: var(--dark-grey);
-color: var(var(--white));
+color: var(--white);
 width: 384px;
 text-align: center;
+border-radius: 12px;
+padding: 40px;
 
 
 }
+img{
+    width: 88px;
+    border-radius: 50%;
+    margin-bottom: 24px;
+}
 
+h1{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 150%;
+    margin-bottom: 4px;
+    
+}
 
 ul, li {
     list-style: none;
